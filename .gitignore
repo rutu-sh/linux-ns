@@ -1,0 +1,4 @@
+.cloudlab/** 
+.vscode/**
+**/venv/**
+**/.venv/**

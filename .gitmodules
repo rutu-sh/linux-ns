@@ -1,0 +1,3 @@
+[submodule "setup/cloudlab-tools"]
+	path = setup/cloudlab-tools
+	url = https://github.com/rutu-sh/cloudlab-tools.git
