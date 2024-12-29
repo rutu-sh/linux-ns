@@ -1,0 +1,13 @@
+base: alpine:3.21
+steps:
+  - name: copy-src
+    type: copy
+    source: src
+    destination: /home/src
+  - name: run-build
+    type: run
+    command: ["sh", "-c", "echo 'Hello, World!' > /home/src/hello.txt"]
+job:
+  name: run-shell
+  type: shell
+  command: ["sh", "-i"]

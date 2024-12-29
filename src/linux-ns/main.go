@@ -20,10 +20,10 @@ func get_ns_env() []string {
 	env = append(env, "PATH=/bin:/sbin:/usr/bin:/usr/sbin")
 	env = append(env, "PS1=[namespace] # ")
 	env = append(env, "HOME=/home")
-	// env = append(env, "TERM=xterm-256color")
-	// env = append(env, "LANG=en_US.UTF-8")
-	// env = append(env, "LANGUAGE=en_US:en")
-	// env = append(env, "LC_ALL=en_US.UTF-8")
+	env = append(env, "TERM=xterm-256color")
+	env = append(env, "LANG=en_US.UTF-8")
+	env = append(env, "LANGUAGE=en_US:en")
+	env = append(env, "LC_ALL=en_US.UTF-8")
 	return env
 }
 
